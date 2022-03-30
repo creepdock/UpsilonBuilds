@@ -26,7 +26,6 @@ jobs:
       - name: Prepare Dependencies
         run: |
           sudo apt-get update
-          sudo apt-get upgrade -y
           sudo apt-get install build-essential git imagemagick libx11-dev libxext-dev libfreetype6-dev libpng-dev libjpeg-dev pkg-config gcc-arm-none-eabi binutils-arm-none-eabi
           git clone --recursive https://github.com/Lauryy06/Upsilon.git
           cd Upsilon
